@@ -1,0 +1,30 @@
+{% set worksJSON %}
+     {% include 'data/works.json' %}
+{% endset %}
+
+{% set works = worksJSON | json %}
+
+{% for work in works | reverse %}
+	<div class="work">
+		<h3 class="work__title">
+			<a href="https://{{ work.demo }}" target="_blank">
+				<span class="work__emoji">
+					&#{{ work.emoji }};
+				</span>
+				{{ work.title }}
+			</a>
+		</h3>
+		<p class="work__description">
+			{{ work.description }}
+		</p>
+		<ul class="work__technologies">
+			{% for technology in work.stack %}
+			  <li> {{ technology }} </li>
+			{% endfor %}
+		</ul>
+		<div class="work__links">
+			<a href="https://github.com/{{work.github}}" class="work__link" target="_blank">Source</a>
+			<a href="https://{{work.demo}}" class="work__link" target="_blank">Demo</a>
+		</div>
+	</div>
+{% endfor %}

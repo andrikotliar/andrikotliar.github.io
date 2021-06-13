@@ -1,0 +1,47 @@
+[
+	{
+		"id": 1,
+		"title": "HistoryBook",
+		"emoji": "128218",
+		"github": "irinaradchenko/historybook",
+		"demo": "historybook.netlify.app",
+		"description": "The History tearcher's blog: lessons, news, stories",
+		"stack": ["11ty", "Nunjucks", "CSS"]
+	},
+	{
+		"id": 2,
+		"title": "Films Collection",
+		"emoji": "127909",
+		"github": "andrikotliar/films-collection",
+		"description": "My personal collection of favorite films",
+		"demo": "films-collection.netlify.app",
+		"stack": ["Vue", "CSS", "Webpack", "JSON", "Gulp"]
+	},
+	{
+		"id": 3,
+		"title": "Film Data Creator",
+		"emoji": "128187",
+		"github": "andrikotliar/fc-create-new-film",
+		"demo": "andrikotliar.github.io/fc-create-new-film/",
+		"description": "The simple tool for fast creating data for Films Collection",
+		"stack": ["JavaScript", "HTML", "Gulp"]
+	},
+	{
+		"id": 4,
+		"title": "Tournament Table",
+		"emoji": "127942",
+		"github": "andrikotliar/tournament-table",
+		"demo": "andrikotliar.github.io/tournament-table/",
+		"description": "Tool for keeping score of different games",
+		"stack": ["JavaScript", "HTML", "Gulp"]
+	},
+	{
+		"id": 5,
+		"title": "LP: Explore and Travel",
+		"emoji": "127748",
+		"github": "andrikotliar/explore-and-travel/",
+		"demo": "andrikotliar.github.io/explore-and-travel/",
+		"description": "The landing page for the travel agency (training work)",
+		"stack": ["HTML", "CSS", "JS", "Gulp"]
+	}
+]

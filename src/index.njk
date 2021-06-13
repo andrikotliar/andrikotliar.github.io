@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include "head.njk" %}
+<body>
+	<header class="header">
+		<div class="container">
+			<h1 class="header__title">Andrii Kotliar</h1>
+			<h2 class="header__subtitle">Frontent Developer</h2>
+			{% include "header-links.njk" %}
+		</div>
+	</header>
+	<main class="content">
+		<div class="content__container container">
+			<aside class="skills">
+				<h2 class="section-title skills__title"><span class="skills__wide-title">&#128203; &nbsp; View</span> Skills <span class="skills__wide-title">list</span></h2>
+				{% include "skills.njk" %}
+			</aside>
+			<article class="works">
+				<h2 class="section-title">Portfolio works list</h2>
+				<div class="works__list">
+					{% include "works.njk" %}
+				</div>
+			</article>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="footer__container container">
+			{% include "footer-links.njk" %}
+			<div class="footer__copyright"><span class="year"></span> / Andrii Kotliar</div>
+		</div>
+	</footer>
+	<script src="dist/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{% set linksJSON %}
+     {% include 'data/links.json' %}
+{% endset %}
+
+{% set links = linksJSON | json %}
+
+<div class="header__contacts">
+	{% for item in links %}
+		<a href="{{ item.link }}" class="header__contact{% if item.specialClass == true %} header__contact--email{% endif %}" target="{% if item.target == 'self' %}_self{% else %}_blank{%endif%}">{{ item.title }}</a>
+	{% endfor %}
+</div>

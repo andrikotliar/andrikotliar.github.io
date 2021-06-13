@@ -1,0 +1,1 @@
+const showCurrentYear=()=>{const e=document.querySelector(".year"),t=(new Date).getFullYear();e.textContent=t},showSkillsList=()=>{const e=document.querySelector(".skills__title"),t=document.querySelector(".skills__list");e.addEventListener("click",(()=>{t.classList.toggle("skills__list--visible")}))};showCurrentYear(),showSkillsList();

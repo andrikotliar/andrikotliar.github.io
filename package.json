@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "gulp start",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "browser-sync": "^2.26.12",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-postcss": "^9.0.0",
+    "gulp-terser": "^2.0.1",
+    "postcss": "^8.2.7",
+    "postcss-csso": "^5.0.0",
+    "postcss-import": "^14.0.0"
+  },
+  "browserslist": [
+    "last 2 version",
+    "not dead",
+    "not ie <= 11"
+  ]
+}

@@ -1,0 +1,28 @@
+@font-face {
+	font-family: 'Merienda';
+	src: url('fonts/Merienda-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap; 
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url('fonts/Roboto-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap; 
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url('fonts/Roboto-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap; 
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url('fonts/Roboto-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap; 
+}

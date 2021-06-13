@@ -1,0 +1,11 @@
+{% set skillsJSON %}
+     {% include 'data/skills.json' %}
+{% endset %}
+
+{% set skills = skillsJSON | json %}
+
+<ul class="skills__list">
+     {% for skill in skills.list %}
+          <li> {{skill}} </li>
+     {% endfor %}
+</ul>

@@ -1,0 +1,20 @@
+[
+	{
+		"link": "mailto:andrijkotliar@gmail.com",
+		"title": "andrijkotliar@gmail.com",
+		"target": "self",
+		"specialClass": true
+	},
+	{
+		"link": "https://github.com/andrikotliar",
+		"title": "github"
+	},
+	{
+		"link": "https://t.me/andrii_kotliar",
+		"title": "telegram"
+	},
+	{
+		"link": "https://twitter.com/andrii_kotliar",
+		"title": "twitter"
+	}
+]
